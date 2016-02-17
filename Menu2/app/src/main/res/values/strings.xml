@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Menu</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="Menu">
+        <item>Menu Ejectivo</item>
+        <item>Menu para dos</item>
+        <item>Menu Bebidas</item>
+        <item>Menu Tragos</item>
+    </string-array>
+    <string name="title_activity_main2">activity_main2</string>
+    <string name="title_activity_main22">activity_main22</string>
+    <string name="title_activity_main23">activity_main23</string>
+    <string name="title_activity_main24">activity_main24</string>
+</resources>

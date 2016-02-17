@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.alumnos.vistazo.Main22Activity"
+    android:background="@drawable/fondo">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView5"
+        android:src="@drawable/analistaprogramador"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="DESCRIPCIÓN DE LA CARRERA"
+        android:id="@+id/textView2"
+        android:layout_marginTop="58dp"
+        android:layout_below="@+id/imageView5"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Esta carrera forma un Técnico de Nivel Superior Analista Programador que se desempeñará en el área de las tecnologías de la información, capaz de analizar, desarrollar y entregar soporte a sistemas computacionales, velando por su correcto funcionamiento. La carrera integra diversas áreas de especialidad, como una línea de lenguaje de programación, bases de datos y diseño web, además de formación en inglés técnico, que le permitirá al alumno un mejor desempeño de sus funciones y adaptabilidad a equipos de trabajo multidisciplinarios."
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="51dp"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

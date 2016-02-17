@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff4442"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Fragmentación a"
+        android:id="@+id/textView" />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="214dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/web_hi_res_512" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Misión"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=" Formar profesionales y técnicos, capacitados para asumir los desafíos de la sociedad contemporánea y para responder a las demandas cada vez más complejas del mundo laboral, con responsabilidad y compromiso social "
+        android:id="@+id/textView3" />
+</LinearLayout>

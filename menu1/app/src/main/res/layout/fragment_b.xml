@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#010101">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Animales en extincion"
+        android:id="@+id/textView5"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:layout_width="389dp"
+        android:layout_height="230dp"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/animales"
+        android:layout_weight="0.29" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Cuando se considera a una especie animal en peligro de extinción?  Se considera en peligro de extinción a una especie animal, cuando su existencia se encuentra comprometida a nivel mundial. Esto es debido generalmente a la fulminacion de un recurso del cual dependen todas y cada una de las especie, ya sea por parte de la acción del hombre, como la caza ilegal o la tala de indiscriminada de arboles, o simplemente a cambios en el ecosistema de la especie producto de hechos fortuitos, como lo son el cambio climático. Como está ocurriendo en este preciso momento y por desgracia estos animales en peligro de extincion no están habituados a tales condiciones climáticas y a veces les es imposible adaptarse a dichos cambios."
+        android:id="@+id/textView6"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

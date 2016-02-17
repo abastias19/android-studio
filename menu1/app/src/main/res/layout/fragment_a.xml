@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#030303">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Medio Terrstre"
+        android:id="@+id/textView2"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/terrestre" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="La radiación ultravioleta ayudó a las plantas a conquistar la tierra  Una investigación de la Universidad de La Rioja concluye que la radiación ultravioleta (UV) provocó en las plantas la aparición de adaptaciones que les permitieron especializarse en distintos ambientes. "
+        android:id="@+id/textView3"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Aventura</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<string-array name="Aventura">
+    <item>Cordillera de los andes</item>
+    <item>Lagos de chile</item>
+    <item>Volcanes</item>
+    <item>San pedro de atacama</item>
+</string-array>
+    <string name="title_activity_main2">Cordillera de los andes</string>
+</resources>

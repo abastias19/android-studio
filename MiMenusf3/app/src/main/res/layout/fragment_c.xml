@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="369dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/animales"
+        android:layout_weight="0.24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Pingüinos en peligro de extinción No es ningún secreto que casi todas las especies de pingüinos están disminuyendo en número cada día, por varias las razones; entre ellas están la caza, los derramamientos de petróleo y la destrucción de su hábitat natural, el clima, y ​​la falta de alimentos. Todos estos factores, han dejado a muchos de ellos vulnerables y a otros en riesgo de extinción."
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.24" />
+</LinearLayout>
